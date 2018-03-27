@@ -16,6 +16,10 @@ describe('uportResolver', () => {
         'type': 'Curve25519EncryptionPublicKey',
         'owner': 'did:uport:2nQtiQG6Cgm1GYTBaaKAgr76uY7iSexUkqX',
         'publicKeyBase64': 'QCFPBLm5pwmuTOu+haxv0+Vpmr6Rrz/DEEvbcjktQnQ='
+      }],
+      'authentication': [{
+        'type': 'EcdsaSignatureAuthentication2018',
+        'publicKey': 'did:uport:2nQtiQG6Cgm1GYTBaaKAgr76uY7iSexUkqX#keys-1'
       }]
     }
 
@@ -41,7 +45,11 @@ describe('uportResolver', () => {
         'name': 'uPort @ Devcon 3',
         'description': 'Uport Attestations',
         'image': {'@type': 'ImageObject', 'name': 'avatar', 'contentUrl': '/ipfs/QmSCnmXC91Arz2gj934Ce4DeR7d9fULWRepjzGMX6SSazB'}
-      }
+      },
+      'authentication': [{
+        'type': 'EcdsaSignatureAuthentication2018',
+        'publicKey': 'did:uport:2nQtiQG6Cgm1GYTBaaKAgr76uY7iSexUkqX#keys-1'
+      }]
     }
 
     const legacyApp = {
@@ -49,7 +57,7 @@ describe('uportResolver', () => {
       '@type': 'Organization',
       'name': 'uPort @ Devcon 3',
       'description': 'Uport Attestations',
- 'publicKey': '0x04613bb3a4874d27032618f020614c21cbe4c4e4781687525f6674089f9bd3d6c7f6eb13569053d31715a3ba32e0b791b97922af6387f087d6b5548c06944ab062',
+      'publicKey': '0x04613bb3a4874d27032618f020614c21cbe4c4e4781687525f6674089f9bd3d6c7f6eb13569053d31715a3ba32e0b791b97922af6387f087d6b5548c06944ab062',
       'image': {'@type': 'ImageObject', 'name': 'avatar', 'contentUrl': '/ipfs/QmSCnmXC91Arz2gj934Ce4DeR7d9fULWRepjzGMX6SSazB'}
     }
 
