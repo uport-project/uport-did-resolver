@@ -4,12 +4,13 @@ import UportLite from 'uport-lite'
 export function convertToDid (did, legacy) {
   const publicKey = [{
     id: `${did}#keys-1`,
-    type: 'EcdsaPublicKeySecp256k1',
+    type: 'Secp256k1VerificationKey2018',
     owner: did,
     publicKeyHex: legacy.publicKey.match(/^0x/) ? legacy.publicKey.slice(2) : legacy.publicKey
   }]
+  
   const authentication = [{
-    type: 'EcdsaSignatureAuthentication2018',
+    type: 'Secp256k1SignatureAuthentication2018',
     publicKey: `${did}#keys-1`
   }]
 
