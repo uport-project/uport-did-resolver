@@ -17,7 +17,8 @@
   "scripts": {
     "test": "jest",
     "build:es5": "./node_modules/.bin/babel src -d lib",
-    "build": "yarn build:es5 && yarn test"
+    "build": "yarn build:es5 && yarn test",
+    "prepublish": "npm run build:es5"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
