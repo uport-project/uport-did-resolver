@@ -1,6 +1,6 @@
 {
   "name": "uport-did-resolver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Resolve uPort DID documents",
   "main": "lib/register.js",
   "repository": {
