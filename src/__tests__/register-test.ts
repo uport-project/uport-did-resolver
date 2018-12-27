@@ -82,7 +82,7 @@ describe('uportResolver', () => {
     describe('doc not found', () => {
       it('resolves and returns null', async () => {
         register((mnid, cb) => cb(null, null))
-        await expect(resolve('did:uport:2nQtiQG6Cgm1GYTBaaKAgr76uY7iSexUkqX')).resolves.toBeUndefined()
+        await expect(resolve('did:uport:2nQtiQG6Cgm1GYTBaaKAgr76uY7iSexUkqX')).resolves.toBeNull()
       })
     })
 
