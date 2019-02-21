@@ -1,6 +1,6 @@
 {
   "name": "uport-did-resolver",
-  "version": "0.0.4",
+  "version": "0.0.5-alpha.1",
   "description": "Resolve uPort DID documents",
   "main": "lib/register.js",
   "types": "lib/register.d.ts",
@@ -11,7 +11,8 @@
   "files": [
     "dist",
     "lib",
-    "src"
+    "src",
+    "vendor.d.ts"
   ],
   "author": "Pelle Braendgaard <pelle.braendgaard@consensys.net>",
   "license": "MIT",
