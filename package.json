@@ -11,7 +11,6 @@
   "files": [
     "dist",
     "lib",
-    "src",
     "vendor.d.ts"
   ],
   "author": "Pelle Braendgaard <pelle.braendgaard@consensys.net>",
