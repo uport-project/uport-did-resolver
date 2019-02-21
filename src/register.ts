@@ -1,3 +1,5 @@
+/// <reference path="../vendor.d.ts" />
+
 import { registerMethod, DIDDocument, ParsedDID, PublicKey } from 'did-resolver'
 import UportLite from 'uport-lite'
 
