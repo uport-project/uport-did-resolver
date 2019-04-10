@@ -54,6 +54,6 @@
   },
   "dependencies": {
     "did-resolver": "0.0.6",
-    "uport-lite": "^1.0.3"
+    "uport-lite": "^1.0.4"
   }
 }
