@@ -1,6 +1,6 @@
 {
   "name": "uport-did-resolver",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Resolve uPort DID documents",
   "main": "lib/register.js",
   "types": "lib/register.d.ts",
@@ -54,6 +54,6 @@
   },
   "dependencies": {
     "did-resolver": "0.0.6",
-    "uport-lite": "^1.0.4"
+    "uport-lite": "^1.0.5"
   }
 }
